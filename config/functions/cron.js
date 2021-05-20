@@ -76,7 +76,7 @@ module.exports = {
     // Check if it has sold
   }, 
 
-  '*/50 * * * * *': async () => {
+  '0 0 * * * *': async () => {
     // Get all profile that are currently on chainsaw
     // 
     const chainsawDB = strapi.connections.chainsaw;
