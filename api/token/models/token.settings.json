@@ -41,8 +41,8 @@
       "type": "string"
     },
     "artist": {
-      "via": "tokens",
-      "model": "artist"
+      "model": "artist",
+      "via": "tokens"
     },
     "onSale": {
       "type": "boolean",
@@ -65,6 +65,9 @@
     },
     "buttonMessage": {
       "type": "string"
+    },
+    "whitehot": {
+      "type": "boolean"
     }
   }
 }
